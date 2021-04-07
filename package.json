@@ -1,0 +1,25 @@
+{
+  "name": "you",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exporting.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "ayush",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "mongodb": "^3.6.6",
+    "mongoose": "^5.12.3",
+    "morgan": "^1.10.0",
+    "node": "^15.12.0",
+    "nodemon": "^2.0.7"
+  }
+}
